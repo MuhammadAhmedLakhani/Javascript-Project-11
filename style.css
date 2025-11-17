@@ -16,8 +16,9 @@ th {
 
 .back {
     border: none;
+
     background-color: transparent;
-    font-size: 20px;
+    font-size: 50px;
 }
 
 .heading {
@@ -37,19 +38,68 @@ th,td {
 
 .cont {
     width: 100vw;
-    height: 30vh;
+    height: 60vh;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
 }
-.cont1 {
-    width: 100vw;
+.layer{
+    width: 40vw;
+}
+.layer > h1  {
+    color: rgb(6, 6, 64);
+    font-size: 65px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.layer2 > h6  {
+    color: rgb(6, 6, 64);
+    width: 30vw;
     /* height: 30vh; */
-    display: flex;
-    justify-content: center;
+    margin: 0;
+    font-size: 40px;
+    
+}
+.layer2 > input  {
+    color: rgb(6, 6, 64);
+    width: 30vw;
+    /* height: 30vh; */
+    font-size: 30px;
+    
+}
+.layer2 {
+    height: 2   0vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     /* align-items: center; */
 }
-/* 
-.input {
-    background-image: url("");
-} */
+
+#input {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* background-image: url("images/images.png");
+    background-color: rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.4; */
+    /* object-fit: contain; */ 
+}
+
+#input ::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right:0;
+    bottom: 0;
+    top: 0;
+    background-image: url("images/images.png");
+    background-size: cover;
+    opacity: 0.2;
+    z-index: -1;
+}
+
