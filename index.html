@@ -3,49 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Student Attendance CSV Reader</title>
-    <script src="https://kit.fontawesome.com/fd3f52aad4.js" crossorigin="anonymous"></script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-    <div id="input">
+    <div class="main">
+        <div class="container">
+            <h1>Login</h1> 
+            <input type="text" placeholder="Enter Your Name"  id="name"   >
+            </br>
+            <input type="email" placeholder="Enter Your Email" id="email" >
+            <br>
+            <button onclick="register()">Register</button>
 
-        <div class="cont">
-            <div class="layer">
-
-                <h1 class="intro">Student Attendance </h1 class="intro">
-                <div class="layer2">
-                    <h6>Please select your file</h6>
-                    <input type="file" id="csvFileInput" accept=".csv">
-
-                </div>    
-            </div>
-            <!-- <input type="file" id="csvFileInput" accept=".csv"> -->
         </div>
-        <!-- <div class="cont1">
-
-        </div> -->
     </div>
 
-    <h2 class="hide" id="heading">Attendance Data</h2>
-    <table id="attendanceTable">
-        <thead id="thead">
-            <!-- Headers will be inserted here by JS -->
-        </thead>
-        <tbody id="tbody">
-            <!-- Data rows will be inserted here by JS -->
-        </tbody>
-
-    </table>
-    <button class="hide" id="back" onclick="back()"><i class="fa-solid fa-circle-arrow-left"></i></button>
-
-
     <script src="app.js"></script>
-
-
 </body>
 
 </html>
