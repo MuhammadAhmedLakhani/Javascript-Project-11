@@ -1,0 +1,55 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.hide {
+    display: none;
+}
+
+.back {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.heading {
+    color: rgb(24, 60, 88);
+    font-size: 70px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+th,td {
+    font-size: 70px;
+}
+
+.intro {
+    font-size: 60px;
+}
+
+.cont {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont1 {
+    width: 100vw;
+    /* height: 30vh; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+/* 
+.input {
+    background-image: url("");
+} */
